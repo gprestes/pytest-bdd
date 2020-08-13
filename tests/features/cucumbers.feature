@@ -8,12 +8,6 @@ Feature: Cucumber Basket
         When "<some>" cucumbers are added to the basket
         Then the basket contains "<total>" cucumbers
 
-        Examples: Amount
-            | initial | some | total |
-            | 2       | 4    | 6     |
-            | 0       | 3    | 3     |
-            | 5       | 5    | 10    |
-
     Scenario: Remove cucumbers from a basket
         Given the basket has "8" cucumbers
         When "3" cucumbers are removed from the basket
