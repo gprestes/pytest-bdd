@@ -1,12 +1,10 @@
 # coding=utf-8
 """Cucumber Basket feature tests."""
-import pytest
 from functools import partial
 from pytest_bdd import (
     given,
     parsers,
     scenarios,
-    scenario,
     then,
     when,
 )
@@ -14,16 +12,7 @@ from pytest_bdd import (
 from cucumbers import CucumberBasket
 
 CONVERTERS = {"initial": int, "some": int, "total": int}
-# scenarios("../features/cucumbers.feature", example_converters=CONVERTERS)
-
-
-@pytest.mark.parametrize(
-    ["initial", "some", "total"], [(0, 3, 3), (2, 4, 6), (5, 5, 10)]
-)
-@scenario("../features/cucumbers.feature", "Add cucumbers to a basket")
-def test_add(initial, some, total):
-    pass
-
+scenarios("../features/cucumbers.feature", example_converters=CONVERTERS)
 
 EXTRA_TYPES = {"Number": int}
 
