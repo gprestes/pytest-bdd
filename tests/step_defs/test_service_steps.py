@@ -13,8 +13,9 @@ from pytest_bdd import (
 
 DUCKDUCKGO_API = "https://api.duckduckgo.com/"
 
+CONVERTERS = {"phrase": str}
+scenarios("../features/service.feature", example_converters=CONVERTERS)
 
-scenarios("../features/service.feature", example_converters=dict(phrase=str))
 
 @given('the DuckDuckGo API is queried with "<phrase>"')
 def ddg_response(phrase):
