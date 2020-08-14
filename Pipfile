@@ -5,11 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 black = "==19.10b0"
-rope = "*"
+rope = "==0.17.0"
 
 [packages]
 pytest = "==6.0.1"
 pytest-bdd = "==3.4.0"
+requests = "==2.24.0"
 
 [requires]
 python_version = "3.8"
