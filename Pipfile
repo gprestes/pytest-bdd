@@ -10,7 +10,7 @@ rope = "==0.18.0"
 [packages]
 pytest = "==6.1.0"
 pytest-bdd = "==4.0.1"
-requests = "==2.24.0"
+requests = "==2.25.0"
 
 [requires]
 python_version = "3.8"
