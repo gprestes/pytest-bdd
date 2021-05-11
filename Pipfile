@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "==20.8b1"
+black = "==21.5b1"
 rope = "==0.18.0"
 
 [packages]
