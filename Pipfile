@@ -9,7 +9,7 @@ rope = "==1.13.0"
 
 [packages]
 pytest = "==8.1.1"
-pytest-bdd = "==6.1.1"
+pytest-bdd = "==7.2.0"
 requests = "==2.32.3"
 
 [requires]
