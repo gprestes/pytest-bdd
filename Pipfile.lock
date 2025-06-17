@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2102005c07dc77b7158ab69eac3a95882226138518edbdbe0e2becce76ba8e77"
+            "sha256": "9a40cb31d4f71f9782e6e172ff40e6855feec6928db3ae2b6909281d7a5eaa29"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -121,6 +121,13 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==3.4.2"
+        },
+        "gherkin-official": {
+            "hashes": [
+                "sha256:26967b0d537a302119066742669e0e8b663e632769330be675457ae993e1d1bc",
+                "sha256:dbea32561158f02280d7579d179b019160d072ce083197625e2f80a6776bb9eb"
+            ],
+            "version": "==29.0.0"
         },
         "idna": {
             "hashes": [
@@ -263,12 +270,12 @@
         },
         "pytest-bdd": {
             "hashes": [
-                "sha256:168ede4a118e348feb70182590ee4a2f856e68dafe54a75a4e9203da37d4ade6",
-                "sha256:9dfeb1d8565d9548907f36a5a9e2c8e1e0cbac3b2724e17331b87386a19fbc16"
+                "sha256:2124051e71a05ad7db15296e39013593f72ebf96796e1b023a40e5453c47e5fb",
+                "sha256:ef0896c5cd58816dc49810e8ff1d632f4a12019fb3e49959b2d349ffc1c9bfb5"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==7.3.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==8.1.0"
         },
         "requests": {
             "hashes": [
