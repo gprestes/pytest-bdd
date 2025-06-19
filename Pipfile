@@ -8,7 +8,7 @@ black = "==25.1.0"
 rope = "==1.13.0"
 
 [packages]
-pytest = "==8.4.0"
+pytest = "==8.4.1"
 pytest-bdd = "==8.1.0"
 requests = "==2.32.4"
 
