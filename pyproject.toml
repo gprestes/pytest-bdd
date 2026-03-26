@@ -5,7 +5,7 @@ requires-python = "==3.14.3"
 dependencies = [
     "pytest==9.0.2",
     "pytest-bdd==8.1.0",
-    "requests==2.32.5",
+    "requests==2.33.0",
 ]
 
 [dependency-groups]
